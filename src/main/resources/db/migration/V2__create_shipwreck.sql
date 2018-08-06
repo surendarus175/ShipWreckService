@@ -1,0 +1,12 @@
+CREATE TABLE SHIPWRECK
+(
+    ID INT NOT NULL AUTO_INCREMENT,
+	NAME varchar(255) not null,
+	DESCRIPTION varchar(2000) not null,
+	CONDITIONS varchar(255) not null,
+	DEPTH INT,
+	LATITUDE DOUBLE(10,2),
+	LONGITUDE DOUBLE(10,2),
+	YEAR_DISCOVERED INT,
+	primary key(ID)
+);
